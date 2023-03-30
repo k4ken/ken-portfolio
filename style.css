@@ -511,17 +511,23 @@ img {
 
   /* Skill */
   .skill-list {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .skill-example {
     display: block;
-    margin-bottom: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 50px;
+    text-align: center;
   }
-
-  .skill-item {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-
-  .skill-item:last-child {
-    margin-bottom: 0;
+  
+  .skill-example img {
+    width: auto;
+    height: 120px;
+    margin-right:20px;
   }
 
   .skill-name {
@@ -550,6 +556,15 @@ img {
 
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  /* Contact */
+  .contact-text{
+    font-size:16px;
+  }
+
+  .contact-list p{
+    font-size:16px;
   }
 
   /* フッター */
